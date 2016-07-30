@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		706A60CA1D231E7800EB687F /* CountPalindromicSlicesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 706A60C91D231E7800EB687F /* CountPalindromicSlicesTests.m */; };
+		706A60D11D2320E700EB687F /* PalindromicSlices.h in Sources */ = {isa = PBXBuildFile; fileRef = 706A60C01D231D9E00EB687F /* PalindromicSlices.h */; };
+		706A60D21D2320E700EB687F /* PalindromicSlices.m in Sources */ = {isa = PBXBuildFile; fileRef = 706A60C11D231DA900EB687F /* PalindromicSlices.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		706A60C01D231D9E00EB687F /* PalindromicSlices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PalindromicSlices.h; sourceTree = "<group>"; };
+		706A60C11D231DA900EB687F /* PalindromicSlices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PalindromicSlices.m; sourceTree = "<group>"; };
+		706A60C71D231E7800EB687F /* CountPalindromicSlicesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountPalindromicSlicesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		706A60C91D231E7800EB687F /* CountPalindromicSlicesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountPalindromicSlicesTests.m; sourceTree = "<group>"; };
+		706A60CB1D231E7800EB687F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		706A60C41D231E7800EB687F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		706A60AD1D231CF100EB687F = {
+			isa = PBXGroup;
+			children = (
+				706A60B81D231CF100EB687F /* CountPalindromicSlices */,
+				706A60C81D231E7800EB687F /* CountPalindromicSlicesTests */,
+				706A60B71D231CF100EB687F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		706A60B71D231CF100EB687F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				706A60C71D231E7800EB687F /* CountPalindromicSlicesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		706A60B81D231CF100EB687F /* CountPalindromicSlices */ = {
+			isa = PBXGroup;
+			children = (
+				706A60C01D231D9E00EB687F /* PalindromicSlices.h */,
+				706A60C11D231DA900EB687F /* PalindromicSlices.m */,
+			);
+			path = CountPalindromicSlices;
+			sourceTree = "<group>";
+		};
+		706A60C81D231E7800EB687F /* CountPalindromicSlicesTests */ = {
+			isa = PBXGroup;
+			children = (
+				706A60C91D231E7800EB687F /* CountPalindromicSlicesTests.m */,
+				706A60CB1D231E7800EB687F /* Info.plist */,
+			);
+			path = CountPalindromicSlicesTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		706A60C61D231E7800EB687F /* CountPalindromicSlicesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 706A60CC1D231E7800EB687F /* Build configuration list for PBXNativeTarget "CountPalindromicSlicesTests" */;
+			buildPhases = (
+				706A60C31D231E7800EB687F /* Sources */,
+				706A60C41D231E7800EB687F /* Frameworks */,
+				706A60C51D231E7800EB687F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CountPalindromicSlicesTests;
+			productName = CountPalindromicSlicesTests;
+			productReference = 706A60C71D231E7800EB687F /* CountPalindromicSlicesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		706A60AE1D231CF100EB687F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ashley Barrett";
+				TargetAttributes = {
+					706A60C61D231E7800EB687F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 706A60B11D231CF100EB687F /* Build configuration list for PBXProject "CountPalindromicSlices" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 706A60AD1D231CF100EB687F;
+			productRefGroup = 706A60B71D231CF100EB687F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				706A60C61D231E7800EB687F /* CountPalindromicSlicesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		706A60C51D231E7800EB687F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		706A60C31D231E7800EB687F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706A60D11D2320E700EB687F /* PalindromicSlices.h in Sources */,
+				706A60D21D2320E700EB687F /* PalindromicSlices.m in Sources */,
+				706A60CA1D231E7800EB687F /* CountPalindromicSlicesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		706A60BB1D231CF100EB687F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		706A60BC1D231CF100EB687F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		706A60CD1D231E7800EB687F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CountPalindromicSlicesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ashley-Barrett.CountPalindromicSlicesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		706A60CE1D231E7800EB687F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CountPalindromicSlicesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ashley-Barrett.CountPalindromicSlicesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		706A60B11D231CF100EB687F /* Build configuration list for PBXProject "CountPalindromicSlices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706A60BB1D231CF100EB687F /* Debug */,
+				706A60BC1D231CF100EB687F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		706A60CC1D231E7800EB687F /* Build configuration list for PBXNativeTarget "CountPalindromicSlicesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706A60CD1D231E7800EB687F /* Debug */,
+				706A60CE1D231E7800EB687F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 706A60AE1D231CF100EB687F /* Project object */;
+}

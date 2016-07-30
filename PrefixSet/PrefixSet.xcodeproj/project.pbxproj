@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		706A609B1D1E7B9F00EB687F /* PrefixSetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 706A609A1D1E7B9F00EB687F /* PrefixSetTests.m */; };
+		706A60A51D1E7F5900EB687F /* PrefixSet.h in Sources */ = {isa = PBXBuildFile; fileRef = 706A60591D1B203500EB687F /* PrefixSet.h */; };
+		706A60A61D1E7F5900EB687F /* PrefixSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 706A605A1D1B204D00EB687F /* PrefixSet.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		706A60591D1B203500EB687F /* PrefixSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixSet.h; sourceTree = "<group>"; };
+		706A605A1D1B204D00EB687F /* PrefixSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefixSet.m; sourceTree = "<group>"; };
+		706A60981D1E7B9E00EB687F /* PrefixSetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrefixSetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		706A609A1D1E7B9F00EB687F /* PrefixSetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrefixSetTests.m; sourceTree = "<group>"; };
+		706A609C1D1E7B9F00EB687F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		706A60951D1E7B9E00EB687F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		706A60461D1B17B200EB687F = {
+			isa = PBXGroup;
+			children = (
+				706A60511D1B17B300EB687F /* PrefixSet */,
+				706A60991D1E7B9F00EB687F /* PrefixSetTests */,
+				706A60501D1B17B300EB687F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		706A60501D1B17B300EB687F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				706A60981D1E7B9E00EB687F /* PrefixSetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		706A60511D1B17B300EB687F /* PrefixSet */ = {
+			isa = PBXGroup;
+			children = (
+				706A60591D1B203500EB687F /* PrefixSet.h */,
+				706A605A1D1B204D00EB687F /* PrefixSet.m */,
+			);
+			path = PrefixSet;
+			sourceTree = "<group>";
+		};
+		706A60991D1E7B9F00EB687F /* PrefixSetTests */ = {
+			isa = PBXGroup;
+			children = (
+				706A609A1D1E7B9F00EB687F /* PrefixSetTests.m */,
+				706A609C1D1E7B9F00EB687F /* Info.plist */,
+			);
+			path = PrefixSetTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		706A60971D1E7B9E00EB687F /* PrefixSetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 706A609D1D1E7B9F00EB687F /* Build configuration list for PBXNativeTarget "PrefixSetTests" */;
+			buildPhases = (
+				706A60941D1E7B9E00EB687F /* Sources */,
+				706A60951D1E7B9E00EB687F /* Frameworks */,
+				706A60961D1E7B9E00EB687F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrefixSetTests;
+			productName = PrefixSetTests;
+			productReference = 706A60981D1E7B9E00EB687F /* PrefixSetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		706A60471D1B17B200EB687F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ashley Barrett";
+				TargetAttributes = {
+					706A60971D1E7B9E00EB687F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 706A604A1D1B17B300EB687F /* Build configuration list for PBXProject "PrefixSet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 706A60461D1B17B200EB687F;
+			productRefGroup = 706A60501D1B17B300EB687F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				706A60971D1E7B9E00EB687F /* PrefixSetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		706A60961D1E7B9E00EB687F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		706A60941D1E7B9E00EB687F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706A60A51D1E7F5900EB687F /* PrefixSet.h in Sources */,
+				706A60A61D1E7F5900EB687F /* PrefixSet.m in Sources */,
+				706A609B1D1E7B9F00EB687F /* PrefixSetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		706A60541D1B17B300EB687F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		706A60551D1B17B300EB687F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		706A609E1D1E7B9F00EB687F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PrefixSetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ashley-Barrett.PrefixSetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		706A609F1D1E7B9F00EB687F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PrefixSetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ashley-Barrett.PrefixSetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		706A604A1D1B17B300EB687F /* Build configuration list for PBXProject "PrefixSet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706A60541D1B17B300EB687F /* Debug */,
+				706A60551D1B17B300EB687F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		706A609D1D1E7B9F00EB687F /* Build configuration list for PBXNativeTarget "PrefixSetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706A609E1D1E7B9F00EB687F /* Debug */,
+				706A609F1D1E7B9F00EB687F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 706A60471D1B17B200EB687F /* Project object */;
+}

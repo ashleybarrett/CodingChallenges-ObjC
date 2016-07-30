@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		706A608B1D1C7B5C00EB687F /* NumberOfDiscIntersectionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 706A608A1D1C7B5C00EB687F /* NumberOfDiscIntersectionsTests.m */; };
+		706A60901D1C7FF500EB687F /* NumberOfDiscIntersections.h in Sources */ = {isa = PBXBuildFile; fileRef = 706A60811D1C7B2500EB687F /* NumberOfDiscIntersections.h */; };
+		706A60911D1C7FF500EB687F /* NumberOfDiscIntersections.m in Sources */ = {isa = PBXBuildFile; fileRef = 706A60821D1C7B3D00EB687F /* NumberOfDiscIntersections.m */; };
+		706A60AB1D1E916100EB687F /* Disk.h in Sources */ = {isa = PBXBuildFile; fileRef = 706A60A81D1E8E0100EB687F /* Disk.h */; };
+		706A60AC1D1E916100EB687F /* Disk.m in Sources */ = {isa = PBXBuildFile; fileRef = 706A60A91D1E8EBC00EB687F /* Disk.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		706A60811D1C7B2500EB687F /* NumberOfDiscIntersections.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberOfDiscIntersections.h; sourceTree = "<group>"; };
+		706A60821D1C7B3D00EB687F /* NumberOfDiscIntersections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberOfDiscIntersections.m; sourceTree = "<group>"; };
+		706A60881D1C7B5B00EB687F /* NumberOfDiscIntersectionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberOfDiscIntersectionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		706A608A1D1C7B5C00EB687F /* NumberOfDiscIntersectionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberOfDiscIntersectionsTests.m; sourceTree = "<group>"; };
+		706A608C1D1C7B5C00EB687F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		706A60A81D1E8E0100EB687F /* Disk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Disk.h; sourceTree = "<group>"; };
+		706A60A91D1E8EBC00EB687F /* Disk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Disk.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		706A60851D1C7B5B00EB687F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		706A606E1D1C782C00EB687F = {
+			isa = PBXGroup;
+			children = (
+				706A60791D1C782C00EB687F /* NumberOfDiscIntersections */,
+				706A60891D1C7B5B00EB687F /* NumberOfDiscIntersectionsTests */,
+				706A60781D1C782C00EB687F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		706A60781D1C782C00EB687F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				706A60881D1C7B5B00EB687F /* NumberOfDiscIntersectionsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		706A60791D1C782C00EB687F /* NumberOfDiscIntersections */ = {
+			isa = PBXGroup;
+			children = (
+				706A60811D1C7B2500EB687F /* NumberOfDiscIntersections.h */,
+				706A60821D1C7B3D00EB687F /* NumberOfDiscIntersections.m */,
+				706A60A81D1E8E0100EB687F /* Disk.h */,
+				706A60A91D1E8EBC00EB687F /* Disk.m */,
+			);
+			path = NumberOfDiscIntersections;
+			sourceTree = "<group>";
+		};
+		706A60891D1C7B5B00EB687F /* NumberOfDiscIntersectionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				706A608A1D1C7B5C00EB687F /* NumberOfDiscIntersectionsTests.m */,
+				706A608C1D1C7B5C00EB687F /* Info.plist */,
+			);
+			path = NumberOfDiscIntersectionsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		706A60871D1C7B5B00EB687F /* NumberOfDiscIntersectionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 706A608D1D1C7B5C00EB687F /* Build configuration list for PBXNativeTarget "NumberOfDiscIntersectionsTests" */;
+			buildPhases = (
+				706A60841D1C7B5B00EB687F /* Sources */,
+				706A60851D1C7B5B00EB687F /* Frameworks */,
+				706A60861D1C7B5B00EB687F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumberOfDiscIntersectionsTests;
+			productName = NumberOfDiscIntersectionsTests;
+			productReference = 706A60881D1C7B5B00EB687F /* NumberOfDiscIntersectionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		706A606F1D1C782C00EB687F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ashley Barrett";
+				TargetAttributes = {
+					706A60871D1C7B5B00EB687F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 706A60721D1C782C00EB687F /* Build configuration list for PBXProject "NumberOfDiscIntersections" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 706A606E1D1C782C00EB687F;
+			productRefGroup = 706A60781D1C782C00EB687F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				706A60871D1C7B5B00EB687F /* NumberOfDiscIntersectionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		706A60861D1C7B5B00EB687F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		706A60841D1C7B5B00EB687F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706A60AB1D1E916100EB687F /* Disk.h in Sources */,
+				706A60AC1D1E916100EB687F /* Disk.m in Sources */,
+				706A60901D1C7FF500EB687F /* NumberOfDiscIntersections.h in Sources */,
+				706A60911D1C7FF500EB687F /* NumberOfDiscIntersections.m in Sources */,
+				706A608B1D1C7B5C00EB687F /* NumberOfDiscIntersectionsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		706A607C1D1C782C00EB687F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		706A607D1D1C782C00EB687F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		706A608E1D1C7B5C00EB687F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NumberOfDiscIntersectionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ashley-Barrett.NumberOfDiscIntersectionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		706A608F1D1C7B5C00EB687F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NumberOfDiscIntersectionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ashley-Barrett.NumberOfDiscIntersectionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		706A60721D1C782C00EB687F /* Build configuration list for PBXProject "NumberOfDiscIntersections" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706A607C1D1C782C00EB687F /* Debug */,
+				706A607D1D1C782C00EB687F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		706A608D1D1C7B5C00EB687F /* Build configuration list for PBXNativeTarget "NumberOfDiscIntersectionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706A608E1D1C7B5C00EB687F /* Debug */,
+				706A608F1D1C7B5C00EB687F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 706A606F1D1C782C00EB687F /* Project object */;
+}

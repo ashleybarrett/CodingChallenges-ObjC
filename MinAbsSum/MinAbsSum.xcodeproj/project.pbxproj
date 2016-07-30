@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7012D5DC1D47E84800C45F07 /* MinAbsSum.h in Sources */ = {isa = PBXBuildFile; fileRef = 706A61481D3178E700EB687F /* MinAbsSum.h */; };
+		7012D5DD1D47E84800C45F07 /* MinAbsSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 706A61491D3178E700EB687F /* MinAbsSum.m */; };
+		706A61401D31773B00EB687F /* MinAbsSumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 706A613F1D31773B00EB687F /* MinAbsSumTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		706A613D1D31773B00EB687F /* MinAbsSumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinAbsSumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		706A613F1D31773B00EB687F /* MinAbsSumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinAbsSumTests.m; sourceTree = "<group>"; };
+		706A61411D31773B00EB687F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		706A61481D3178E700EB687F /* MinAbsSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinAbsSum.h; sourceTree = "<group>"; };
+		706A61491D3178E700EB687F /* MinAbsSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinAbsSum.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		706A613A1D31773B00EB687F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		706A61261D31770F00EB687F = {
+			isa = PBXGroup;
+			children = (
+				706A61311D31770F00EB687F /* MinAbsSum */,
+				706A613E1D31773B00EB687F /* MinAbsSumTests */,
+				706A61301D31770F00EB687F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		706A61301D31770F00EB687F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				706A613D1D31773B00EB687F /* MinAbsSumTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		706A61311D31770F00EB687F /* MinAbsSum */ = {
+			isa = PBXGroup;
+			children = (
+				706A61481D3178E700EB687F /* MinAbsSum.h */,
+				706A61491D3178E700EB687F /* MinAbsSum.m */,
+			);
+			path = MinAbsSum;
+			sourceTree = "<group>";
+		};
+		706A613E1D31773B00EB687F /* MinAbsSumTests */ = {
+			isa = PBXGroup;
+			children = (
+				706A613F1D31773B00EB687F /* MinAbsSumTests.m */,
+				706A61411D31773B00EB687F /* Info.plist */,
+			);
+			path = MinAbsSumTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		706A613C1D31773B00EB687F /* MinAbsSumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 706A61421D31773B00EB687F /* Build configuration list for PBXNativeTarget "MinAbsSumTests" */;
+			buildPhases = (
+				706A61391D31773B00EB687F /* Sources */,
+				706A613A1D31773B00EB687F /* Frameworks */,
+				706A613B1D31773B00EB687F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MinAbsSumTests;
+			productName = MinAbsSumTests;
+			productReference = 706A613D1D31773B00EB687F /* MinAbsSumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		706A61271D31770F00EB687F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ashley Barrett";
+				TargetAttributes = {
+					706A613C1D31773B00EB687F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 706A612A1D31770F00EB687F /* Build configuration list for PBXProject "MinAbsSum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 706A61261D31770F00EB687F;
+			productRefGroup = 706A61301D31770F00EB687F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				706A613C1D31773B00EB687F /* MinAbsSumTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		706A613B1D31773B00EB687F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		706A61391D31773B00EB687F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7012D5DC1D47E84800C45F07 /* MinAbsSum.h in Sources */,
+				7012D5DD1D47E84800C45F07 /* MinAbsSum.m in Sources */,
+				706A61401D31773B00EB687F /* MinAbsSumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		706A61341D31770F00EB687F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		706A61351D31770F00EB687F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		706A61431D31773B00EB687F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MinAbsSumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ashley-Barrett.MinAbsSumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		706A61441D31773B00EB687F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MinAbsSumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ashley-Barrett.MinAbsSumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		706A612A1D31770F00EB687F /* Build configuration list for PBXProject "MinAbsSum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706A61341D31770F00EB687F /* Debug */,
+				706A61351D31770F00EB687F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		706A61421D31773B00EB687F /* Build configuration list for PBXNativeTarget "MinAbsSumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706A61431D31773B00EB687F /* Debug */,
+				706A61441D31773B00EB687F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 706A61271D31770F00EB687F /* Project object */;
+}
