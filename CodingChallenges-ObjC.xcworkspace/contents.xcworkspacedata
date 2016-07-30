@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:PrefixSet/PrefixSet.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NumberOfDiscIntersections/NumberOfDiscIntersections.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MinAbsSum/MinAbsSum.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LowestCommonAncestor/LowestCommonAncestor.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LargestSquareOf1s/LargestSquareOf1s.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CountPalindromicSlices/CountPalindromicSlices.xcodeproj">
+   </FileRef>
+</Workspace>
