@@ -5,6 +5,7 @@
 //  Created by Ashley Barrett on 22/06/2016.
 //  Copyright © 2016 Ashley Barrett. All rights reserved.
 //
+//  My attempt to solve this problem: https://codility.com/programmers/task/prefix_set/
 
 #import <XCTest/XCTest.h>
 #import "PrefixSet.h"

@@ -5,6 +5,7 @@
 //  Created by Ashley Barrett on 05/04/2016.
 //  Copyright © 2016 Ashley Barrett. All rights reserved.
 //
+//  My attempt to solve this problem: http://www.blackrabbitcoder.net/archive/2015/08/05/little-puzzlersndashlowest-common-ancestor.aspx
 
 #import <XCTest/XCTest.h>
 #import "BinarySearchTreeBuilder.h"

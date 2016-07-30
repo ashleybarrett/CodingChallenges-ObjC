@@ -5,6 +5,7 @@
 //  Created by Ashley Barrett on 23/06/2016.
 //  Copyright © 2016 Ashley Barrett. All rights reserved.
 //
+//  My attempt to solve this problem: https://codility.com/programmers/task/number_of_disc_intersections/
 
 #import <XCTest/XCTest.h>
 #import "NumberOfDiscIntersections.h"

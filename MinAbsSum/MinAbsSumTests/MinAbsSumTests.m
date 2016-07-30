@@ -5,6 +5,7 @@
 //  Created by Ashley Barrett on 09/07/2016.
 //  Copyright © 2016 Ashley Barrett. All rights reserved.
 //
+//  My attempt to solve this problem: https://codility.com/programmers/task/min_abs_sum/
 
 #import <XCTest/XCTest.h>
 
