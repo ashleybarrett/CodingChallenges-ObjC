@@ -10,6 +10,6 @@
 
 @interface MinAbsSum : NSObject
 
--(NSInteger) getMinAbsSum:(NSMutableArray *)array;
+-(int) solution:(NSMutableArray *)A;
 
 @end

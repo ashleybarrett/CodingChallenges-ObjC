@@ -10,11 +10,10 @@
 
 @implementation MinAbsSum
 
-//int solution(NSMutableArray *A)
--(NSInteger) getMinAbsSum:(NSMutableArray *)array{
-    NSInteger result = 0;
+-(int) solution:(NSMutableArray *)A{
+    int result = 0;
     
-    if (array != nil && array.count > 0) {
+    if (A != nil && A.count > 0) {
         
     }
     
