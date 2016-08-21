@@ -20,21 +20,21 @@
 -(void) test_NilArrayReturnsZero{
     NSMutableArray *array = nil;
     MinAbsSum *sut = [MinAbsSum new];
-    NSInteger result = [sut solution:array];
+    int result = [sut solution:array];
     XCTAssertEqual(0, result);
 }
 
 -(void) test_EmptyArrayReturnsZero{
     NSMutableArray *array = [NSMutableArray new];
     MinAbsSum *sut = [MinAbsSum new];
-    NSInteger result = [sut solution:array];
+    int result = [sut solution:array];
     XCTAssertEqual(0, result);
 }
 
 -(void) test_ReturnsZero{
     NSMutableArray *array = [[NSMutableArray alloc] initWithObjects:@1, @5, @2, [self minusNumber:-2], nil];
     MinAbsSum *sut = [MinAbsSum new];
-    NSInteger result = [sut solution:array];
+    int result = [sut solution:array];
     XCTAssertEqual(0, result);
 }
 /*
