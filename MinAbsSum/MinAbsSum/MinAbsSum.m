@@ -14,7 +14,9 @@
     int result = 0;
     
     if (A != nil && A.count > 0) {
-        
+        for (int i = 0; i < A.count; i++) {
+
+        }
     }
     
     return result;
