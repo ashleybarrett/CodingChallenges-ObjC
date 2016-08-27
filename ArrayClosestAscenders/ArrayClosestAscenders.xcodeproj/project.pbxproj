@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7077B5971D71743900DD6889 /* ArrayClosestAscenders.m in Sources */ = {isa = PBXBuildFile; fileRef = 7077B5961D71743900DD6889 /* ArrayClosestAscenders.m */; };
+		7077B5971D71743900DD6889 /* ArrayClosestAscendersFirstAttempt.m in Sources */ = {isa = PBXBuildFile; fileRef = 7077B5961D71743900DD6889 /* ArrayClosestAscendersFirstAttempt.m */; };
 		7077B5AB1D71751300DD6889 /* ArrayClosestAscendersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7077B5AA1D71751300DD6889 /* ArrayClosestAscendersTests.m */; };
-		7077B5B01D7175FE00DD6889 /* ArrayClosestAscenders.h in Sources */ = {isa = PBXBuildFile; fileRef = 7077B5951D71743900DD6889 /* ArrayClosestAscenders.h */; };
-		7077B5B11D71764900DD6889 /* ArrayClosestAscenders.m in Sources */ = {isa = PBXBuildFile; fileRef = 7077B5961D71743900DD6889 /* ArrayClosestAscenders.m */; };
+		7077B5B01D7175FE00DD6889 /* ArrayClosestAscendersFirstAttempt.h in Sources */ = {isa = PBXBuildFile; fileRef = 7077B5951D71743900DD6889 /* ArrayClosestAscendersFirstAttempt.h */; };
+		7077B5B11D71764900DD6889 /* ArrayClosestAscendersFirstAttempt.m in Sources */ = {isa = PBXBuildFile; fileRef = 7077B5961D71743900DD6889 /* ArrayClosestAscendersFirstAttempt.m */; };
+		7077B5B31D719B7100DD6889 /* ArrayClosestAscendersProtocol.h in Sources */ = {isa = PBXBuildFile; fileRef = 7077B5B21D719AE200DD6889 /* ArrayClosestAscendersProtocol.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,11 +28,12 @@
 
 /* Begin PBXFileReference section */
 		7077B58D1D7173E500DD6889 /* ArrayClosestAscenders */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ArrayClosestAscenders; sourceTree = BUILT_PRODUCTS_DIR; };
-		7077B5951D71743900DD6889 /* ArrayClosestAscenders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayClosestAscenders.h; sourceTree = "<group>"; };
-		7077B5961D71743900DD6889 /* ArrayClosestAscenders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayClosestAscenders.m; sourceTree = "<group>"; };
+		7077B5951D71743900DD6889 /* ArrayClosestAscendersFirstAttempt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayClosestAscendersFirstAttempt.h; sourceTree = "<group>"; };
+		7077B5961D71743900DD6889 /* ArrayClosestAscendersFirstAttempt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayClosestAscendersFirstAttempt.m; sourceTree = "<group>"; };
 		7077B5A81D71751300DD6889 /* ArrayClosestAscendersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArrayClosestAscendersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7077B5AA1D71751300DD6889 /* ArrayClosestAscendersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayClosestAscendersTests.m; sourceTree = "<group>"; };
 		7077B5AC1D71751300DD6889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7077B5B21D719AE200DD6889 /* ArrayClosestAscendersProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayClosestAscendersProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +75,9 @@
 		7077B58F1D7173E500DD6889 /* ArrayClosestAscenders */ = {
 			isa = PBXGroup;
 			children = (
-				7077B5951D71743900DD6889 /* ArrayClosestAscenders.h */,
-				7077B5961D71743900DD6889 /* ArrayClosestAscenders.m */,
+				7077B5951D71743900DD6889 /* ArrayClosestAscendersFirstAttempt.h */,
+				7077B5961D71743900DD6889 /* ArrayClosestAscendersFirstAttempt.m */,
+				7077B5B21D719AE200DD6889 /* ArrayClosestAscendersProtocol.h */,
 			);
 			path = ArrayClosestAscenders;
 			sourceTree = "<group>";
@@ -174,7 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7077B5971D71743900DD6889 /* ArrayClosestAscenders.m in Sources */,
+				7077B5971D71743900DD6889 /* ArrayClosestAscendersFirstAttempt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,8 +185,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7077B5B11D71764900DD6889 /* ArrayClosestAscenders.m in Sources */,
-				7077B5B01D7175FE00DD6889 /* ArrayClosestAscenders.h in Sources */,
+				7077B5B31D719B7100DD6889 /* ArrayClosestAscendersProtocol.h in Sources */,
+				7077B5B11D71764900DD6889 /* ArrayClosestAscendersFirstAttempt.m in Sources */,
+				7077B5B01D7175FE00DD6889 /* ArrayClosestAscendersFirstAttempt.h in Sources */,
 				7077B5AB1D71751300DD6889 /* ArrayClosestAscendersTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,6 +400,7 @@
 				7077B5941D7173E500DD6889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7077B5AD1D71751300DD6889 /* Build configuration list for PBXNativeTarget "ArrayClosestAscendersTests" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +409,7 @@
 				7077B5AF1D71751300DD6889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

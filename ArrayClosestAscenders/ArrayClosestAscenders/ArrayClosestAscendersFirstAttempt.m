@@ -6,9 +6,9 @@
 //
 //  My attempt to solve this problem: https://codility.com/programmers/task/array_closest_ascenders/
 
-#import "ArrayClosestAscenders.h"
+#import "ArrayClosestAscendersFirstAttempt.h"
 
-@implementation ArrayClosestAscenders
+@implementation ArrayClosestAscendersFirstAttempt : NSObject 
 
 //NSMutableArray * solution(NSMutableArray *A)
 -(NSMutableArray *) solution:(NSMutableArray *)A {
