@@ -32,7 +32,7 @@
 }
 
 -(void) test_ReturnsZero{
-    NSMutableArray *array = [[NSMutableArray alloc] initWithObjects:@1, @5, @2, [self minusNumber:-2], nil];
+    NSMutableArray *array = [[NSMutableArray alloc] initWithObjects:@1, @5, @2, @(-2), nil];
     MinAbsSum *sut = [MinAbsSum new];
     int result = [sut solution:array];
     XCTAssertEqual(0, result);
@@ -60,14 +60,14 @@
 }
 
 -(void) test_ReturnsOne_2{
-    NSMutableArray *array = [[NSMutableArray alloc] initWithObjects:@1, @5, [self minusNumber:-2], @5, @2, @3, nil];
+    NSMutableArray *array = [[NSMutableArray alloc] initWithObjects:@1, @5, [@(-2), @5, @2, @3, nil];
     MinAbsSum *sut = [MinAbsSum new];
     int result = [sut solution:array];
     XCTAssertEqual(0, result);
 }
 
 -(void) test_ReturnsNintyOne{
-    NSMutableArray *array = [[NSMutableArray alloc] initWithObjects:[self minusNumber:-100], @3, @2, @4, nil];
+    NSMutableArray *array = [[NSMutableArray alloc] initWithObjects:@(-100), @3, @2, @4, nil];
     MinAbsSum *sut = [MinAbsSum new];
     int result = [sut solution:array];
     XCTAssertEqual(91, result);
@@ -75,15 +75,10 @@
 
 
 -(void) test_ReturnsOne_3{
-    NSMutableArray *array = [[NSMutableArray alloc] initWithObjects:@14, [self minusNumber:-4], @5, nil];
+    NSMutableArray *array = [[NSMutableArray alloc] initWithObjects:@14, @(-4), @5, nil];
     MinAbsSum *sut = [MinAbsSum new];
     int result = [sut solution:array];
     XCTAssertEqual(1, result);
-}
-
-
--(NSNumber *)minusNumber:(NSInteger)intNumber{
-    return [NSNumber numberWithInteger:intNumber];
 }
 
 @end
