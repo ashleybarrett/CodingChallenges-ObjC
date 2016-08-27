@@ -19,24 +19,22 @@
         
         for (int i = 0; i < A.count; i++) {
             
-            bool matched = false;
             int min = (int)A.count;
+            bool match = false;
             int num = [[A objectAtIndex:i] intValue];
             
             for (int j = 0; j < A.count; j++) {
-            
-                if (j != i) {
-                    
-                    int compareNum = [[A objectAtIndex:j] intValue];
-                    int diff = abs(i - j);
-                    if (compareNum > num && diff < min) {
-                        matched = true;
-                        min = diff;
-                    }
+                
+                int diff = abs(i - j);
+                int compareNum = [[A objectAtIndex:j] intValue];
+                
+                if (diff != 0 && diff < min && compareNum > num) {
+                    min = diff;
+                    match = true;
                 }
             }
             
-            [result insertObject:@(matched ? min : 0) atIndex:i];
+            [result insertObject:@(match ? min : 0) atIndex:i];
         }
     }
     
