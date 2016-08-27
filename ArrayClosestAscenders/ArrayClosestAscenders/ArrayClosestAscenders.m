@@ -36,7 +36,7 @@
                 }
             }
             
-            result[i] = @(matched ? min : 0);
+            [result insertObject:@(matched ? min : 0) atIndex:i];
         }
     }
     
