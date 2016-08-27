@@ -4,7 +4,7 @@
 //
 //  Created by Ashley Barrett on 27/08/2016.
 //
-//
+//  My attempt to solve this problem: https://codility.com/programmers/task/array_closest_ascenders/
 
 #import <XCTest/XCTest.h>
 #import "ArrayClosestAscenders.h"
