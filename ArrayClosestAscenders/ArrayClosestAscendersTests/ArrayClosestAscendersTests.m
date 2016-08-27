@@ -8,6 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import "ArrayClosestAscendersFirstAttempt.h"
+#import "ArrayClosestAscendersSecondAttempt.h"
 #import "ArrayClosestAscendersProtocol.h"
 
 @interface ArrayClosestAscendersTests : XCTestCase
@@ -20,7 +21,7 @@
 
 -(void)setUp {
     [super setUp];
-    self.sut = [ArrayClosestAscendersFirstAttempt new];
+    self.sut = [ArrayClosestAscendersSecondAttempt new];
 }
 
 -(void)test_EmptyArrayReturnsEmptyArray {

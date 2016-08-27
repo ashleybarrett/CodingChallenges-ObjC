@@ -12,6 +12,9 @@
 		7077B5B01D7175FE00DD6889 /* ArrayClosestAscendersFirstAttempt.h in Sources */ = {isa = PBXBuildFile; fileRef = 7077B5951D71743900DD6889 /* ArrayClosestAscendersFirstAttempt.h */; };
 		7077B5B11D71764900DD6889 /* ArrayClosestAscendersFirstAttempt.m in Sources */ = {isa = PBXBuildFile; fileRef = 7077B5961D71743900DD6889 /* ArrayClosestAscendersFirstAttempt.m */; };
 		7077B5B31D719B7100DD6889 /* ArrayClosestAscendersProtocol.h in Sources */ = {isa = PBXBuildFile; fileRef = 7077B5B21D719AE200DD6889 /* ArrayClosestAscendersProtocol.h */; };
+		7077B5B61D71A0E500DD6889 /* ArrayClosestAscendersSecondAttempt.m in Sources */ = {isa = PBXBuildFile; fileRef = 7077B5B51D71A0E500DD6889 /* ArrayClosestAscendersSecondAttempt.m */; };
+		7077B5B71D71A12200DD6889 /* ArrayClosestAscendersSecondAttempt.h in Sources */ = {isa = PBXBuildFile; fileRef = 7077B5B41D71A0E500DD6889 /* ArrayClosestAscendersSecondAttempt.h */; };
+		7077B5B81D71A12200DD6889 /* ArrayClosestAscendersSecondAttempt.m in Sources */ = {isa = PBXBuildFile; fileRef = 7077B5B51D71A0E500DD6889 /* ArrayClosestAscendersSecondAttempt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +37,8 @@
 		7077B5AA1D71751300DD6889 /* ArrayClosestAscendersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayClosestAscendersTests.m; sourceTree = "<group>"; };
 		7077B5AC1D71751300DD6889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7077B5B21D719AE200DD6889 /* ArrayClosestAscendersProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayClosestAscendersProtocol.h; sourceTree = "<group>"; };
+		7077B5B41D71A0E500DD6889 /* ArrayClosestAscendersSecondAttempt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayClosestAscendersSecondAttempt.h; sourceTree = "<group>"; };
+		7077B5B51D71A0E500DD6889 /* ArrayClosestAscendersSecondAttempt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayClosestAscendersSecondAttempt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +80,8 @@
 		7077B58F1D7173E500DD6889 /* ArrayClosestAscenders */ = {
 			isa = PBXGroup;
 			children = (
+				7077B5B41D71A0E500DD6889 /* ArrayClosestAscendersSecondAttempt.h */,
+				7077B5B51D71A0E500DD6889 /* ArrayClosestAscendersSecondAttempt.m */,
 				7077B5951D71743900DD6889 /* ArrayClosestAscendersFirstAttempt.h */,
 				7077B5961D71743900DD6889 /* ArrayClosestAscendersFirstAttempt.m */,
 				7077B5B21D719AE200DD6889 /* ArrayClosestAscendersProtocol.h */,
@@ -177,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7077B5B61D71A0E500DD6889 /* ArrayClosestAscendersSecondAttempt.m in Sources */,
 				7077B5971D71743900DD6889 /* ArrayClosestAscendersFirstAttempt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,6 +193,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7077B5B71D71A12200DD6889 /* ArrayClosestAscendersSecondAttempt.h in Sources */,
+				7077B5B81D71A12200DD6889 /* ArrayClosestAscendersSecondAttempt.m in Sources */,
 				7077B5B31D719B7100DD6889 /* ArrayClosestAscendersProtocol.h in Sources */,
 				7077B5B11D71764900DD6889 /* ArrayClosestAscendersFirstAttempt.m in Sources */,
 				7077B5B01D7175FE00DD6889 /* ArrayClosestAscendersFirstAttempt.h in Sources */,
