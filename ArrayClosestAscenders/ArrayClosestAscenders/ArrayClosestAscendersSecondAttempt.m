@@ -23,7 +23,7 @@
             bool match = false;
             int num = [[A objectAtIndex:i] intValue];
             
-            for (int j = 0; j < A.count; j++) {
+            for (int j = (int)A.count - 1; j >= 0; j--) {
             
                 int diff = abs(i - j);
                 int compareNum = [[A objectAtIndex:j] intValue];
