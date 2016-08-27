@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ArrayClosestAscenders/ArrayClosestAscenders.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:PrefixSet/PrefixSet.xcodeproj">
    </FileRef>
    <FileRef
