@@ -16,11 +16,13 @@
     
     if (A != nil && A.count > 0) {
         for (int i = 0; i < A.count; i++) {
+            
             bool matched = false;
             int min = (int)A.count;
             int num = [[A objectAtIndex:i] intValue];
+            
             for (int j = 0; j < A.count; j++) {
-                
+            
                 if (j != i) {
                     int compareNum = [[A objectAtIndex:j] intValue];
                     int diff = abs(i - j);
