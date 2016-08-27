@@ -12,9 +12,11 @@
 
 //NSMutableArray * solution(NSMutableArray *A)
 -(NSMutableArray *) solution:(NSMutableArray *)A {
+    
     NSMutableArray *result = [NSMutableArray new];
     
     if (A != nil && A.count > 0) {
+        
         for (int i = 0; i < A.count; i++) {
             
             bool matched = false;
@@ -24,6 +26,7 @@
             for (int j = 0; j < A.count; j++) {
             
                 if (j != i) {
+                    
                     int compareNum = [[A objectAtIndex:j] intValue];
                     int diff = abs(i - j);
                     if (compareNum > num && diff < min) {
@@ -32,6 +35,7 @@
                     }
                 }
             }
+            
             result[i] = @(matched ? min : 0);
         }
     }
